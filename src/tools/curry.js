@@ -6,3 +6,4 @@ const curry = (f, args1 = []) => (...args2) => {
 const add = curry((a, b) => a + b);
 
 console.log(add(1)(2));
+

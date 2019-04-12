@@ -29,5 +29,5 @@ const getHistoryUpList = curry((pageSize = TWENTY, pageNum = ZERO) =>
   axios.post(`/user/allHistory`, qs.stringify({ pageNum, pageSize }))
 );
 
-getHistoryUpList(20)(0);
+export getHistoryUpList(20);
 ```
