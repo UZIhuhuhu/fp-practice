@@ -15,3 +15,19 @@ In React
 
 <div onClick={curry(handleClick)}/>
 ```
+
+```js
+const ZERO = 0;
+const TWENTY = 20;
+
+export const getHistoryUpList = (pageSize = TWENTY, pageNum = ZERO) =>
+  axios.post(`/user/allHistory`, qs.stringify({ pageNum, pageSize }));
+```
+
+```js
+const getHistoryUpList = curry((pageSize = TWENTY, pageNum = ZERO) =>
+  axios.post(`/user/allHistory`, qs.stringify({ pageNum, pageSize }))
+);
+
+getHistoryUpList(20)(0);
+```
