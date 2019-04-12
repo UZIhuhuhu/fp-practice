@@ -19,4 +19,10 @@ yarn install
 
 这也是为什么「函数式编程」叫做「函数」式编程
 
-#### 纯函数的意义
+[函数柯里化](./docs/curry.md)
+
+[Monad 和 Promise](./docs/monad.md)
+
+[React中的函数式](./docs/about-react.md)
+
+[SICP 的笔记](./docs/sicp.md)
