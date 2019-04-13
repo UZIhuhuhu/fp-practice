@@ -167,3 +167,5 @@ compose(compose(toUpperCase, head), reverse)
 - 还有类型推导这些？可以试试 `TypeScript` 嘛，我也还没正式的去学
 
 大概就先写这么多叭。
+
+再小声比比一句，JS 好像写什么都丑，看人家 Scheme 多好看 (:
